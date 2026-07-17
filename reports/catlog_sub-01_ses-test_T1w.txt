@@ -1,0 +1,79 @@
+
+------------------------------------------------------------------------
+CAT26.0.rc3 r3250: 1/1:     ./sub-01/ses-test/anat/sub-01_ses-test_T1w.n
+------------------------------------------------------------------------
+SANLM denoising (medium)                                             12s
+Affine preprocessing (APP)                                        
+  Initialize                                                          3s
+  Estimate background                                                 2s
+  Initial correction                                                  3s
+  Refine background                                                   1s
+  Final correction                                                    2s
+  Final scaling                                                       2s
+                                                                     14s
+Correct center-of-mass                                                7s
+Affine registration                                                   5s
+SPM preprocessing 1 (estimate 1 - TPM registration):                 23s
+SPM preprocessing 1 (estimate 2):                                    23s
+SPM preprocessing 2 (write)                                       
+  Write Segmentation                                                  9s
+  Update Segmentation                                                 5s
+  Update Skull-Stripping                                              8s
+  Update probability maps                                             2s
+                                                                     25s
+Global intensity correction                                           3s
+SANLM denoising after intensity normalization (medium)                3s
+Fast Optimized Shooting registration                                  1s
+   34s
+Local adaptive segmentation (LASstr=0.50)                         
+  Prepare maps                                                        1s
+  Prepare partitions                                                  1s
+  Prepare segments (LASmod = 1.00)                                    3s
+  Estimate local tissue thresholds (WM)                               7s
+  Estimate local tissue thresholds (GM)                               9s
+  Intensity transformation                                            0s
+  SANLM denoising after LAS (medium)                                  9s
+                                                                     29s
+ROI segmentation (partitioning)                                   
+  Atlas -> subject space                                              3s
+  Major structures                                                    3s
+  Ventricle detection                                                 4s
+  Blood vessel detection                                              2s
+  WMH detection (WMHCstr=0.45 > WMHCstr'=0.13)                        8s
+  Manual stroke lesion detection                                      0s
+  Closing of deep structures                                          0s
+  Side alignment                                                      1s
+  Final corrections                                                   1s
+                                                                     22s
+Apply enhanced blood vessel correction                                0s
+Amap using initial SPM segmentations (MRF filter strength 0.07)       7s
+    AMAP peaks: [CSF,GM,WM] = [0.36±0.05,0.68±0.08,0.98±0.05]
+Final cleanup (gcutstr=0.23)                                      
+  Level 1 cleanup (ROI estimation)                                    1s
+  Level 1 cleanup (brain masking)                                     1s
+  Level 2 cleanup (CSF correction)                                    0s
+  Level 3 cleanup (CSF/WM PVE)                                        0s
+                                                                      2s
+    1s
+Write result maps                                                     3s
+ROI estimation                                                    
+  ROI estimation of 'thalamic_nuclei' atlas                           1s
+  ROI estimation of 'cobra' atlas                                     2s
+  ROI estimation of 'neuromorphometrics' atlas                        7s
+  ROI estimation of 'lpba40' atlas                                    2s
+  ROI estimation of 'thalamus' atlas                                  1s
+  ROI estimation of 'suit' atlas                                      2s
+  Write results                                                       2s
+                                                                     15s
+Quality check                                                         8s
+  /Users/andraderenew/github/structural-mri_cat12_single_subject/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat/catreport_sub-01_ses-test_T1w.pdf
+
+------------------------------------------------------------------------
+CAT preprocessing takes 5 minute(s) and 35 second(s).
+Structural Image Quality Rating (SIQR):  77.86% (C+)
+Relative gray matter volume (GMV/TIV):   43.787% (510.463 / 1165.777 ml)
+Segmentations are saved in /Users/andraderenew/github/structural-mri_cat12_single_subject/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat
+Reports are saved in /Users/andraderenew/github/structural-mri_cat12_single_subject/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat
+Labels are saved in /Users/andraderenew/github/structural-mri_cat12_single_subject/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat
+------------------------------------------------------------------------
+

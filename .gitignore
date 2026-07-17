@@ -1,0 +1,6 @@
+.DS_Store
+*.asv
+*.m~
+data/raw/
+data/derivatives/
+derivatives/

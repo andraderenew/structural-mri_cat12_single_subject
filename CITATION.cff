@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this repository if you use its scripts or workflow."
+title: "Structural MRI segmentation with CAT26 and SPM25"
+type: software
+authors:
+  - family-names: "Andrade Rey"
+    given-names: "Rene"
+    orcid: "https://orcid.org/0000-0001-5627-579X"
+repository-code: "https://github.com/andraderenew/structural-mri_cat12_single_subject"
+version: "1.0.0"
+date-released: "2026-07-17"
+license: MIT
