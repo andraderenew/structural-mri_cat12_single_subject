@@ -1,12 +1,12 @@
 cff-version: 1.2.0
 title: "Structural MRI segmentation with CAT26 and SPM25"
-message: "If you use this project, please cite it as below."
+message: "Please cite this software using the metadata below."
 type: software
 authors:
   - family-names: "Andrade Rey"
     given-names: "Rene"
     orcid: "https://orcid.org/0000-0001-5627-579X"
-abstract: "Reproducible single-subject structural MRI workflow using CAT26 and SPM25 for tissue segmentation, spatial normalization, modulation, tissue-volume extraction, quality control, and preparation of grey-matter images for voxel-based morphometry."
+abstract: "Reproducible single-subject structural MRI workflow using CAT26 and SPM25 for tissue segmentation, spatial normalisation, modulation, tissue-volume extraction, quality control, and preparation of grey-matter images for voxel-based morphometry."
 license: "MIT"
 repository-code: "https://github.com/andraderenew/structural-mri_cat12_single_subject"
 url: "https://github.com/andraderenew/structural-mri_cat12_single_subject"

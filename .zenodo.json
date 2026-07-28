@@ -7,9 +7,12 @@
     }
   ],
   "title": "Structural MRI segmentation with CAT26 and SPM25",
-  "description": "Reproducible single-subject structural MRI workflow using CAT26 and SPM25 for tissue segmentation, spatial normalization, modulation, tissue-volume extraction, quality control, and preparation of grey-matter images for voxel-based morphometry.",
+  "description": "Reproducible single-subject structural MRI workflow using CAT26 and SPM25 for tissue segmentation, spatial normalisation, modulation, tissue-volume extraction, quality control, and preparation of grey-matter images for voxel-based morphometry.",
   "version": "1.0.1",
+  "upload_type": "software",
   "access_right": "open",
+  "license": "mit",
+  "language": "eng",
   "keywords": [
     "structural MRI",
     "CAT26",
@@ -19,7 +22,12 @@
     "quality control",
     "neuroimaging"
   ],
-  "license": "mit",
-  "upload_type": "software",
-  "language": "eng"
+  "notes": "Completed reproducible neuroimaging portfolio workflow.",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/andraderenew/structural-mri_cat12_single_subject",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ]
 }
