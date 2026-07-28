@@ -10,12 +10,13 @@ abstract: "Reproducible single-subject structural MRI workflow using CAT26 and S
 license: "MIT"
 repository-code: "https://github.com/andraderenew/structural-mri_cat12_single_subject"
 url: "https://github.com/andraderenew/structural-mri_cat12_single_subject"
-version: "1.0.0"
-date-released: "2026-07-27"
+version: "1.0.1"
+date-released: "2026-07-28"
 keywords:
-  - structural MRI
-  - CAT26
-  - SPM25
-  - segmentation
-  - voxel-based morphometry
-  - neuroimaging
+  - "structural MRI"
+  - "CAT26"
+  - "SPM25"
+  - "segmentation"
+  - "voxel-based morphometry"
+  - "quality control"
+  - "neuroimaging"
