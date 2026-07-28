@@ -12,6 +12,7 @@ repository-code: "https://github.com/andraderenew/structural-mri_cat12_single_su
 url: "https://github.com/andraderenew/structural-mri_cat12_single_subject"
 version: "1.0.1"
 date-released: "2026-07-28"
+doi: "10.5281/zenodo.21650422"
 keywords:
   - "structural MRI"
   - "CAT26"
