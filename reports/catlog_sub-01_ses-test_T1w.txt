@@ -66,14 +66,14 @@ ROI estimation
   Write results                                                       2s
                                                                      15s
 Quality check                                                         8s
-  /Users/andraderenew/github/structural-mri_cat12_single_subject/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat/catreport_sub-01_ses-test_T1w.pdf
+  __PROJECT_ROOT__/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat/catreport_sub-01_ses-test_T1w.pdf
 
 ------------------------------------------------------------------------
 CAT preprocessing takes 5 minute(s) and 35 second(s).
 Structural Image Quality Rating (SIQR):  77.86% (C+)
 Relative gray matter volume (GMV/TIV):   43.787% (510.463 / 1165.777 ml)
-Segmentations are saved in /Users/andraderenew/github/structural-mri_cat12_single_subject/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat
-Reports are saved in /Users/andraderenew/github/structural-mri_cat12_single_subject/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat
-Labels are saved in /Users/andraderenew/github/structural-mri_cat12_single_subject/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat
+Segmentations are saved in __PROJECT_ROOT__/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat
+Reports are saved in __PROJECT_ROOT__/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat
+Labels are saved in __PROJECT_ROOT__/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat
 ------------------------------------------------------------------------
 

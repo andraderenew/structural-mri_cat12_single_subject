@@ -9,19 +9,19 @@
       <ll>-6.54258060455322</ll>
    </SPMpreprocessing>
    <filedata>
-      <path>/Users/andraderenew/github/structural-mri_cat12_single_subject/data/raw/sub-01/ses-test/anat</path>
+      <path>__PROJECT_ROOT__/data/raw/sub-01/ses-test/anat</path>
       <file>sub-01_ses-test_T1w</file>
-      <fname>/Users/andraderenew/github/structural-mri_cat12_single_subject/data/raw/sub-01/ses-test/anat/sub-01_ses-test_T1w.nii</fname>
-      <F>/Users/andraderenew/github/structural-mri_cat12_single_subject/data/raw/sub-01/ses-test/anat/sub-01_ses-test_T1w.nii</F>
-      <Fm>/Users/andraderenew/github/structural-mri_cat12_single_subject/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat/msub-01_ses-test_T1w.nii</Fm>
-      <Fp0>/Users/andraderenew/github/structural-mri_cat12_single_subject/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat/p0sub-01_ses-test_T1w.nii</Fp0>
+      <fname>__PROJECT_ROOT__/data/raw/sub-01/ses-test/anat/sub-01_ses-test_T1w.nii</fname>
+      <F>__PROJECT_ROOT__/data/raw/sub-01/ses-test/anat/sub-01_ses-test_T1w.nii</F>
+      <Fm>__PROJECT_ROOT__/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat/msub-01_ses-test_T1w.nii</Fm>
+      <Fp0>__PROJECT_ROOT__/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat/p0sub-01_ses-test_T1w.nii</Fp0>
       <fnames>../raw/sub-01/ses-test/anat/sub-01_ses-test_T1w</fnames>
    </filedata>
    <parameter>
       <vbm>
          <opts>
             <tpm>
-               <item>/Users/andraderenew/toolboxes/spm_25.01.02/tpm/TPM.nii</item>
+               <item>__SPM25_ROOT__/tpm/TPM.nii</item>
             </tpm>
             <ngaus>[1 1 2 3 4 2]</ngaus>
             <affreg>mni</affreg>
@@ -56,24 +56,24 @@
             <vox>1.5</vox>
             <bb>12</bb>
             <shootingsurf>Template_T1</shootingsurf>
-            <pth_templates>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym</pth_templates>
+            <pth_templates>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym</pth_templates>
             <darteltpm>
-               <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_1_Dartel.nii</item>
+               <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_1_Dartel.nii</item>
             </darteltpm>
             <shootingtpm>
-               <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_0_GS.nii</item>
+               <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_0_GS.nii</item>
             </shootingtpm>
             <shootingT1>
-               <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_T1_masked.nii</item>
+               <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_T1_masked.nii</item>
             </shootingT1>
             <brainmask>
-               <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/brainmask.nii</item>
+               <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/brainmask.nii</item>
             </brainmask>
             <T1>
-               <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/T1.nii</item>
+               <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/T1.nii</item>
             </T1>
             <cat12atlas>
-               <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/cat.nii</item>
+               <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/cat.nii</item>
             </cat12atlas>
             <pbtres>0.5</pbtres>
             <SRP>42</SRP>
@@ -93,7 +93,7 @@
             <gifti_dat>1</gifti_dat>
             <atlas>
                <tr>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/neuromorphometrics.nii</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/neuromorphometrics.nii</td>
                   <td>0</td>
                   <td>
                      <item>csf</item>
@@ -103,7 +103,7 @@
                   <td>1</td>
                </tr>
                <tr>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/lpba40.nii</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/lpba40.nii</td>
                   <td>0</td>
                   <td>
                      <item>gm</item>
@@ -112,7 +112,7 @@
                   <td>1</td>
                </tr>
                <tr>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/cobra.nii</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/cobra.nii</td>
                   <td>0</td>
                   <td>
                      <item>gm</item>
@@ -121,7 +121,7 @@
                   <td>1</td>
                </tr>
                <tr>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/hammers.nii</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/hammers.nii</td>
                   <td>0</td>
                   <td>
                      <item>csf</item>
@@ -131,7 +131,7 @@
                   <td>0</td>
                </tr>
                <tr>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/thalamus.nii</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/thalamus.nii</td>
                   <td>0</td>
                   <td>
                      <item>gm</item>
@@ -139,7 +139,7 @@
                   <td>1</td>
                </tr>
                <tr>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/thalamic_nuclei.nii</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/thalamic_nuclei.nii</td>
                   <td>0</td>
                   <td>
                      <item>gm</item>
@@ -147,7 +147,7 @@
                   <td>1</td>
                </tr>
                <tr>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/hypothalamus.nii</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/hypothalamus.nii</td>
                   <td>0</td>
                   <td>
                      <item>gm</item>
@@ -156,7 +156,7 @@
                   <td>0</td>
                </tr>
                <tr>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/suit.nii</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/suit.nii</td>
                   <td>0</td>
                   <td>
                      <item>gm</item>
@@ -165,7 +165,7 @@
                   <td>1</td>
                </tr>
                <tr>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/ibsr.nii</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/ibsr.nii</td>
                   <td>0</td>
                   <td>
                      <item>csf</item>
@@ -175,7 +175,7 @@
                   <td>0</td>
                </tr>
                <tr>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/aal3.nii</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/aal3.nii</td>
                   <td>1</td>
                   <td>
                      <item>gm</item>
@@ -183,16 +183,7 @@
                   <td>0</td>
                </tr>
                <tr>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/mori.nii</td>
-                  <td>1</td>
-                  <td>
-                     <item>gm</item>
-                     <item>wm</item>
-                  </td>
-                  <td>0</td>
-               </tr>
-               <tr>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/anatomy3.nii</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/mori.nii</td>
                   <td>1</td>
                   <td>
                      <item>gm</item>
@@ -201,24 +192,7 @@
                   <td>0</td>
                </tr>
                <tr>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/julichbrain3.nii</td>
-                  <td>0</td>
-                  <td>
-                     <item>gm</item>
-                     <item>wm</item>
-                  </td>
-                  <td>0</td>
-               </tr>
-               <tr>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Tian_Subcortex_S4_7T.nii</td>
-                  <td>1</td>
-                  <td>
-                     <item>gm</item>
-                  </td>
-                  <td>0</td>
-               </tr>
-               <tr>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Schaefer2018_100Parcels_17Networks_order.nii</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/anatomy3.nii</td>
                   <td>1</td>
                   <td>
                      <item>gm</item>
@@ -227,7 +201,24 @@
                   <td>0</td>
                </tr>
                <tr>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Schaefer2018_200Parcels_17Networks_order.nii</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/julichbrain3.nii</td>
+                  <td>0</td>
+                  <td>
+                     <item>gm</item>
+                     <item>wm</item>
+                  </td>
+                  <td>0</td>
+               </tr>
+               <tr>
+                  <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Tian_Subcortex_S4_7T.nii</td>
+                  <td>1</td>
+                  <td>
+                     <item>gm</item>
+                  </td>
+                  <td>0</td>
+               </tr>
+               <tr>
+                  <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Schaefer2018_100Parcels_17Networks_order.nii</td>
                   <td>1</td>
                   <td>
                      <item>gm</item>
@@ -236,7 +227,7 @@
                   <td>0</td>
                </tr>
                <tr>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Schaefer2018_400Parcels_17Networks_order.nii</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Schaefer2018_200Parcels_17Networks_order.nii</td>
                   <td>1</td>
                   <td>
                      <item>gm</item>
@@ -245,7 +236,16 @@
                   <td>0</td>
                </tr>
                <tr>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Schaefer2018_600Parcels_17Networks_order.nii</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Schaefer2018_400Parcels_17Networks_order.nii</td>
+                  <td>1</td>
+                  <td>
+                     <item>gm</item>
+                     <item>wm</item>
+                  </td>
+                  <td>0</td>
+               </tr>
+               <tr>
+                  <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Schaefer2018_600Parcels_17Networks_order.nii</td>
                   <td>1</td>
                   <td>
                      <item>gm</item>
@@ -257,49 +257,49 @@
             <satlas>
                <tr>
                   <td>Desikan</td>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/atlases_surfaces/lh.aparc_a2009s.freesurfer.annot</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/atlases_surfaces/lh.aparc_a2009s.freesurfer.annot</td>
                   <td>0</td>
                   <td>1</td>
                </tr>
                <tr>
                   <td>Destrieux</td>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/atlases_surfaces/lh.aparc_DK40.freesurfer.annot</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/atlases_surfaces/lh.aparc_DK40.freesurfer.annot</td>
                   <td>0</td>
                   <td>1</td>
                </tr>
                <tr>
                   <td>HCP</td>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/atlases_surfaces/lh.aparc_HCP_MMP1.freesurfer.annot</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/atlases_surfaces/lh.aparc_HCP_MMP1.freesurfer.annot</td>
                   <td>0</td>
                   <td>0</td>
                </tr>
                <tr>
                   <td>JulichBrain</td>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/atlases_surfaces/lh.JulichBrainAtlas_3.1.freesurfer.annot</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/atlases_surfaces/lh.JulichBrainAtlas_3.1.freesurfer.annot</td>
                   <td>0</td>
                   <td>0</td>
                </tr>
                <tr>
                   <td>Schaefer2018_100P_17N</td>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/atlases_surfaces/lh.Schaefer2018_100Parcels_17Networks_order.annot</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/atlases_surfaces/lh.Schaefer2018_100Parcels_17Networks_order.annot</td>
                   <td>1</td>
                   <td>0</td>
                </tr>
                <tr>
                   <td>Schaefer2018_200P_17N</td>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/atlases_surfaces/lh.Schaefer2018_200Parcels_17Networks_order.annot</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/atlases_surfaces/lh.Schaefer2018_200Parcels_17Networks_order.annot</td>
                   <td>0</td>
                   <td>0</td>
                </tr>
                <tr>
                   <td>Schaefer2018_400P_17N</td>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/atlases_surfaces/lh.Schaefer2018_400Parcels_17Networks_order.annot</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/atlases_surfaces/lh.Schaefer2018_400Parcels_17Networks_order.annot</td>
                   <td>1</td>
                   <td>0</td>
                </tr>
                <tr>
                   <td>Schaefer2018_600P_17N</td>
-                  <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/atlases_surfaces/lh.Schaefer2018_600Parcels_17Networks_order.annot</td>
+                  <td>__SPM25_ROOT__/toolbox/CAT/atlases_surfaces/lh.Schaefer2018_600Parcels_17Networks_order.annot</td>
                   <td>1</td>
                   <td>0</td>
                </tr>
@@ -347,24 +347,24 @@
          <vox>1.5</vox>
          <bb>12</bb>
          <shootingsurf>Template_T1</shootingsurf>
-         <pth_templates>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym</pth_templates>
+         <pth_templates>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym</pth_templates>
          <darteltpm>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_1_Dartel.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_1_Dartel.nii</item>
          </darteltpm>
          <shootingtpm>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_0_GS.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_0_GS.nii</item>
          </shootingtpm>
          <shootingT1>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_T1_masked.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_T1_masked.nii</item>
          </shootingT1>
          <brainmask>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/brainmask.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/brainmask.nii</item>
          </brainmask>
          <T1>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/T1.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/T1.nii</item>
          </T1>
          <cat12atlas>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/cat.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/cat.nii</item>
          </cat12atlas>
          <pbtres>0.5</pbtres>
          <SRP>42</SRP>
@@ -384,7 +384,7 @@
          <gifti_dat>1</gifti_dat>
          <atlas>
             <tr>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/neuromorphometrics.nii</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/neuromorphometrics.nii</td>
                <td>0</td>
                <td>
                   <item>csf</item>
@@ -394,7 +394,7 @@
                <td>1</td>
             </tr>
             <tr>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/lpba40.nii</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/lpba40.nii</td>
                <td>0</td>
                <td>
                   <item>gm</item>
@@ -403,7 +403,7 @@
                <td>1</td>
             </tr>
             <tr>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/cobra.nii</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/cobra.nii</td>
                <td>0</td>
                <td>
                   <item>gm</item>
@@ -412,7 +412,7 @@
                <td>1</td>
             </tr>
             <tr>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/hammers.nii</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/hammers.nii</td>
                <td>0</td>
                <td>
                   <item>csf</item>
@@ -422,7 +422,7 @@
                <td>0</td>
             </tr>
             <tr>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/thalamus.nii</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/thalamus.nii</td>
                <td>0</td>
                <td>
                   <item>gm</item>
@@ -430,7 +430,7 @@
                <td>1</td>
             </tr>
             <tr>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/thalamic_nuclei.nii</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/thalamic_nuclei.nii</td>
                <td>0</td>
                <td>
                   <item>gm</item>
@@ -438,7 +438,7 @@
                <td>1</td>
             </tr>
             <tr>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/hypothalamus.nii</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/hypothalamus.nii</td>
                <td>0</td>
                <td>
                   <item>gm</item>
@@ -447,7 +447,7 @@
                <td>0</td>
             </tr>
             <tr>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/suit.nii</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/suit.nii</td>
                <td>0</td>
                <td>
                   <item>gm</item>
@@ -456,7 +456,7 @@
                <td>1</td>
             </tr>
             <tr>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/ibsr.nii</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/ibsr.nii</td>
                <td>0</td>
                <td>
                   <item>csf</item>
@@ -466,7 +466,7 @@
                <td>0</td>
             </tr>
             <tr>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/aal3.nii</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/aal3.nii</td>
                <td>1</td>
                <td>
                   <item>gm</item>
@@ -474,16 +474,7 @@
                <td>0</td>
             </tr>
             <tr>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/mori.nii</td>
-               <td>1</td>
-               <td>
-                  <item>gm</item>
-                  <item>wm</item>
-               </td>
-               <td>0</td>
-            </tr>
-            <tr>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/anatomy3.nii</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/mori.nii</td>
                <td>1</td>
                <td>
                   <item>gm</item>
@@ -492,24 +483,7 @@
                <td>0</td>
             </tr>
             <tr>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/julichbrain3.nii</td>
-               <td>0</td>
-               <td>
-                  <item>gm</item>
-                  <item>wm</item>
-               </td>
-               <td>0</td>
-            </tr>
-            <tr>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Tian_Subcortex_S4_7T.nii</td>
-               <td>1</td>
-               <td>
-                  <item>gm</item>
-               </td>
-               <td>0</td>
-            </tr>
-            <tr>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Schaefer2018_100Parcels_17Networks_order.nii</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/anatomy3.nii</td>
                <td>1</td>
                <td>
                   <item>gm</item>
@@ -518,7 +492,24 @@
                <td>0</td>
             </tr>
             <tr>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Schaefer2018_200Parcels_17Networks_order.nii</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/julichbrain3.nii</td>
+               <td>0</td>
+               <td>
+                  <item>gm</item>
+                  <item>wm</item>
+               </td>
+               <td>0</td>
+            </tr>
+            <tr>
+               <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Tian_Subcortex_S4_7T.nii</td>
+               <td>1</td>
+               <td>
+                  <item>gm</item>
+               </td>
+               <td>0</td>
+            </tr>
+            <tr>
+               <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Schaefer2018_100Parcels_17Networks_order.nii</td>
                <td>1</td>
                <td>
                   <item>gm</item>
@@ -527,7 +518,7 @@
                <td>0</td>
             </tr>
             <tr>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Schaefer2018_400Parcels_17Networks_order.nii</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Schaefer2018_200Parcels_17Networks_order.nii</td>
                <td>1</td>
                <td>
                   <item>gm</item>
@@ -536,7 +527,16 @@
                <td>0</td>
             </tr>
             <tr>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Schaefer2018_600Parcels_17Networks_order.nii</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Schaefer2018_400Parcels_17Networks_order.nii</td>
+               <td>1</td>
+               <td>
+                  <item>gm</item>
+                  <item>wm</item>
+               </td>
+               <td>0</td>
+            </tr>
+            <tr>
+               <td>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Schaefer2018_600Parcels_17Networks_order.nii</td>
                <td>1</td>
                <td>
                   <item>gm</item>
@@ -548,49 +548,49 @@
          <satlas>
             <tr>
                <td>Desikan</td>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/atlases_surfaces/lh.aparc_a2009s.freesurfer.annot</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/atlases_surfaces/lh.aparc_a2009s.freesurfer.annot</td>
                <td>0</td>
                <td>1</td>
             </tr>
             <tr>
                <td>Destrieux</td>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/atlases_surfaces/lh.aparc_DK40.freesurfer.annot</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/atlases_surfaces/lh.aparc_DK40.freesurfer.annot</td>
                <td>0</td>
                <td>1</td>
             </tr>
             <tr>
                <td>HCP</td>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/atlases_surfaces/lh.aparc_HCP_MMP1.freesurfer.annot</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/atlases_surfaces/lh.aparc_HCP_MMP1.freesurfer.annot</td>
                <td>0</td>
                <td>0</td>
             </tr>
             <tr>
                <td>JulichBrain</td>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/atlases_surfaces/lh.JulichBrainAtlas_3.1.freesurfer.annot</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/atlases_surfaces/lh.JulichBrainAtlas_3.1.freesurfer.annot</td>
                <td>0</td>
                <td>0</td>
             </tr>
             <tr>
                <td>Schaefer2018_100P_17N</td>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/atlases_surfaces/lh.Schaefer2018_100Parcels_17Networks_order.annot</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/atlases_surfaces/lh.Schaefer2018_100Parcels_17Networks_order.annot</td>
                <td>1</td>
                <td>0</td>
             </tr>
             <tr>
                <td>Schaefer2018_200P_17N</td>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/atlases_surfaces/lh.Schaefer2018_200Parcels_17Networks_order.annot</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/atlases_surfaces/lh.Schaefer2018_200Parcels_17Networks_order.annot</td>
                <td>0</td>
                <td>0</td>
             </tr>
             <tr>
                <td>Schaefer2018_400P_17N</td>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/atlases_surfaces/lh.Schaefer2018_400Parcels_17Networks_order.annot</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/atlases_surfaces/lh.Schaefer2018_400Parcels_17Networks_order.annot</td>
                <td>1</td>
                <td>0</td>
             </tr>
             <tr>
                <td>Schaefer2018_600P_17N</td>
-               <td>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/atlases_surfaces/lh.Schaefer2018_600Parcels_17Networks_order.annot</td>
+               <td>__SPM25_ROOT__/toolbox/CAT/atlases_surfaces/lh.Schaefer2018_600Parcels_17Networks_order.annot</td>
                <td>1</td>
                <td>0</td>
             </tr>
@@ -622,31 +622,31 @@
          <LASmyostr>0</LASmyostr>
          <shooting>
             <shootingtpm>
-               <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_0_GS.nii</item>
+               <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_0_GS.nii</item>
             </shootingtpm>
             <regstr>0.5</regstr>
          </shooting>
          <darteltpms>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_1_Dartel.nii</item>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_2_Dartel.nii</item>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_3_Dartel.nii</item>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_4_Dartel.nii</item>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_5_Dartel.nii</item>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_6_Dartel.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_1_Dartel.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_2_Dartel.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_3_Dartel.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_4_Dartel.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_5_Dartel.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_6_Dartel.nii</item>
          </darteltpms>
          <shootingtpms>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_0_GS.nii</item>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_1_GS.nii</item>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_2_GS.nii</item>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_3_GS.nii</item>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_4_GS.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_0_GS.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_1_GS.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_2_GS.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_3_GS.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_4_GS.nii</item>
          </shootingtpms>
          <templates>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_0_GS.nii</item>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_1_GS.nii</item>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_2_GS.nii</item>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_3_GS.nii</item>
-            <item>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_4_GS.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_0_GS.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_1_GS.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_2_GS.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_3_GS.nii</item>
+            <item>__SPM25_ROOT__/toolbox/CAT/templates_MNI152NLin2009cAsym/Template_4_GS.nii</item>
          </templates>
          <inv_weighting>0</inv_weighting>
          <AMAPframing>1</AMAPframing>
@@ -711,8 +711,8 @@
       <version_matlab>25.2</version_matlab>
       <version_cat>26.0.rc3</version_cat>
       <revision_cat>3250</revision_cat>
-      <function>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/cat_vol_qa201901x.m</function>
-      <markdefs>/Users/andraderenew/toolboxes/spm_25.01.02/toolbox/CAT/cat_stat_marks.m</markdefs>
+      <function>__SPM25_ROOT__/toolbox/CAT/cat_vol_qa201901x.m</function>
+      <markdefs>__SPM25_ROOT__/toolbox/CAT/cat_stat_marks.m</markdefs>
       <qamethod>cat12</qamethod>
       <date>20260717-203909</date>
    </software>
@@ -886,14 +886,14 @@
       <item>Write results 2s</item>
       <item>15s</item>
       <item>Quality check 8s</item>
-      <item>/Users/andraderenew/github/structural-mri_cat12_single_subject/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat/catreport_sub-01_ses-test_T1w.pdf</item>
+      <item>__PROJECT_ROOT__/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat/catreport_sub-01_ses-test_T1w.pdf</item>
       <item>------------------------------------------------------------------------</item>
       <item>CAT preprocessing takes 5 minute(s) and 35 second(s).</item>
       <item>Structural Image Quality Rating (SIQR): 77.86% (C+)</item>
       <item>Relative gray matter volume (GMV/TIV): 43.787% (510.463 / 1165.777 ml)</item>
-      <item>Segmentations are saved in /Users/andraderenew/github/structural-mri_cat12_single_subject/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat</item>
-      <item>Reports are saved in /Users/andraderenew/github/structural-mri_cat12_single_subject/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat</item>
-      <item>Labels are saved in /Users/andraderenew/github/structural-mri_cat12_single_subject/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat</item>
+      <item>Segmentations are saved in __PROJECT_ROOT__/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat</item>
+      <item>Reports are saved in __PROJECT_ROOT__/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat</item>
+      <item>Labels are saved in __PROJECT_ROOT__/data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat</item>
       <item>------------------------------------------------------------------------</item>
    </catlog>
 </S>
