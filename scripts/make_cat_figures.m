@@ -1,9 +1,25 @@
 clear;
 clc;
 
-project = '/Users/andraderenew/github/structural-mri_cat12_single_subject';
+script_path = mfilename('fullpath');
+script_dir = fileparts(script_path);
+project = fileparts(script_dir);
 
-spmroot = '/Users/andraderenew/toolboxes/spm_25.01.02';
+project_env = getenv('CAT_PROJECT_ROOT');
+if ~isempty(project_env)
+    project = project_env;
+end
+
+spmroot = getenv('SPM25_ROOT');
+if isempty(spmroot)
+    error(['SPM25_ROOT is not set. Point it to the SPM25 installation ', ...
+           'that contains spm.m.']);
+end
+
+if ~isfile(fullfile(spmroot, 'spm.m'))
+    error('SPM25_ROOT does not contain spm.m: %s', spmroot);
+end
+
 addpath(spmroot, '-begin');
 
 spm('defaults', 'fmri');
@@ -11,11 +27,14 @@ spm('defaults', 'fmri');
 cat_anat = fullfile(project, ...
     'data/raw/derivatives/CAT26.0.rc3_3250/sub-01/ses-test/anat');
 
-original = fullfile(project, ...
-    'data/raw/sub-01/ses-test/anat/sub-01_ses-test_T1w.nii');
+% The original T1 figure is generated independently by:
+%   scripts/make_original_t1_figure.py
+%
+% The CAT-derived NIfTI files below are not distributed in the repository.
+% These entries reproduce the historical SPM display workflow when the
+% original CAT derivatives are available.
 
 files = {
-    original
     fullfile(cat_anat, 'p0sub-01_ses-test_T1w.nii')
     fullfile(cat_anat, 'mwp1sub-01_ses-test_T1w.nii')
     fullfile(cat_anat, 'mwp2sub-01_ses-test_T1w.nii')
@@ -23,7 +42,6 @@ files = {
 };
 
 outputs = {
-    'fig2_original_t1.png'
     'fig3_cat_segmentation.png'
     'fig4_modulated_normalized_gm.png'
     'fig5_modulated_normalized_wm.png'
